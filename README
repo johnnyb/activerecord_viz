@@ -2,7 +2,7 @@ This is a plugin to generate a GraphViz chart of your ActiveRecord models throug
 
 To install the plugin, just do:
 
-script/plugin install http://activerecordviz.googlecode.com/svn/trunk/trunk/activerecordviz
+script/plugin install git://github.com/johnnyb/activerecord_viz.git
 
 To generate the chart, just do:
 
