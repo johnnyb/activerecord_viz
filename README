@@ -1,0 +1,17 @@
+This is a plugin to generate a GraphViz chart of your ActiveRecord models through a rake task.  
+
+To install the plugin, just do:
+
+script/plugin install http://activerecordviz.googlecode.com/svn/trunk/trunk/activerecordviz
+
+To generate the chart, just do:
+
+rake arviz:argraph:create
+
+and it will generate the file db/argraph.dot which can then be viewed with Graphviz.
+Graphviz will generate the graph visualization, and then can export it to a number of 
+formats.  Graphviz is available at:
+
+http://www.graphviz.org/
+
+Copyright information is in the LICENSE file.
